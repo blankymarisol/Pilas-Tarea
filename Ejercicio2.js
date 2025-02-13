@@ -49,9 +49,12 @@ class PilaLimitada extends pila {
 }
 
 //Uso de la pila
-let miPila = new PilaLimitada(3);
+let miPila = new PilaLimitada(6);
 miPila.push("A");
 miPila.push("B");
 miPila.push("C");
-miPila.push("D"); //ERROR LA PILA ESTA LLENA
+miPila.push("D"); 
+miPila.push("E");
+miPila.push("F");
+miPila.push("G"); //ERROR LA PILA ESTA LLENA
 miPila.mostrar();
